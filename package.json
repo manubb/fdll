@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/manubb/fdll.git"
+    "url": "github.com/manubb/fdll"
   },
-  "description": "socket.io adapter to catchup previously sent messages",
+  "description": "Fast doubly linked lists",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "contributors": [
     {
