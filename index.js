@@ -91,6 +91,9 @@ Fdll.prototype.get = function(key) {
 	if (index) return {key: key, data: index.data};
 	else return null;
 };
+Fdll.prototype.set = function(key, val) {
+	this._index[key].data = val;
+};
 Fdll.prototype.length = function() {
 	return this._length;
 };
